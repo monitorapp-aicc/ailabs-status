@@ -11,7 +11,6 @@ sites:
     method: post
     expectedStatusCodes:
       - 400
-    maxResponseTime: 10000
     headers:
     - "Authorization: $API_KEY"
   - name: Inquiring file status
