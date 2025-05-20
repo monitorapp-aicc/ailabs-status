@@ -5,26 +5,33 @@ repo: ailabs-status
 sites:
   - name: ailabs
     url: https://ailabs.monitorapp.com
-  - name: auth-test-api (401 ok)
-    url: https://ailabs-api.monitorapp.com/v1/analysis/file/status?id=100
-    method: GET
-    expectStatus: 401   # 401을 정상으로 간주
-    maxResponseTime: 10000   # 10초 이내 응답
-    followRedirects: false
-  - name: auth-test-api (401 no)
+  # File Analysis
+  - name: File analysis
+    url: https://ailabs-api.monitorapp.com/v1/analysis/file
+    method: post
+    expectedStatusCodes:
+      - 400
+    maxResponseTime: 10000
+    headers:
+    - "Authorization: $API_KEY"
+  - name: Inquiring file status
     url: https://ailabs-api.monitorapp.com/v1/analysis/file/status?id=100
     method: GET
     expectedStatusCodes:
       - 200
       - 201
-      - 401  # 401을 정상으로 간주
-    maxResponseTime: 10000   # 10초 이내 응답
-    followRedirects: false
-    expectedContent: Authentication Failure
-  - name: auth-test-api (200)
-    url: https://ailabs-api.monitorapp.com/v1/analysis/file/status?id=100
+      - 401
+    maxResponseTime: 10000
+    headers:
+    - "Authorization: $API_KEY"
+  - name: Inquiring file result
+    url: https://ailabs-api.monitorapp.com/v1/analysis/file/result?id=100
     method: GET
-    expectStatus: 200
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 401
+    maxResponseTime: 10000
     headers:
     - "Authorization: $API_KEY"
 
