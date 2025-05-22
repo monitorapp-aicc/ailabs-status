@@ -8,7 +8,8 @@ sites:
   # File Analysis
   - name: File analysis
     url: https://ailabs-api.monitorapp.com/v1/analysis/file
-    method: post
+    method: POST
+    maxResponseTime: 10000
     expectedStatusCodes:
       - 400
     headers:
@@ -18,8 +19,6 @@ sites:
     method: GET
     expectedStatusCodes:
       - 200
-      - 201
-      - 401
     maxResponseTime: 10000
     headers:
     - "Authorization: $API_KEY"
@@ -28,11 +27,52 @@ sites:
     method: GET
     expectedStatusCodes:
       - 200
-      - 201
-      - 401
     maxResponseTime: 10000
     headers:
     - "Authorization: $API_KEY"
+  # URL Analysis
+  - name: URL analysis
+    url: https://ailabs-api.monitorapp.com/v1/analysis/url
+    method: POST
+    maxResponseTime: 10000
+    headers:
+      - "Content-Type: application/json"
+    body: '{ "url": "https://wwww.example.com" }'
+    headers:
+      - "Authorization: $API_KEY"
+  - name: Bulk URL analysis
+    url: https://ailabs-api.monitorapp.com/v1/analysis/url/bulk
+    method: POST
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"
+    headers:
+      - "Content-Type: application/json"
+    body: '{ "urls": ["https://wwww.example.com"] }'
+  - name: Bulk URL analysis results list query by task ID
+    url: https://ailabs-api.monitorapp.com/v1/analysis/url/bulk/task_list
+    method: POST
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"    
+    headers:
+      - "Content-Type: application/json"
+    body: '{ "request_id": "50341510-4e57-4b99-a398-97c43a79d9c5" }'
+  - name: Inquiring URL result
+    url: https://ailabs-api.monitorapp.com/v1/analysis/url/result?id=50341510-4e57-4b99-a398-97c43a79d9c5
+    method: GET
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"    
+  - name: Malicious URL match
+    url: https://ailabs-api.monitorapp.com/v1/search/url/malicious
+    method: POST
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"
+    headers:
+      - "Content-Type: application/json"
+    body: '[ { "url" : "https://www.example.com" } ]'
 
 status-website:
   baseUrl: /ailabs-status
