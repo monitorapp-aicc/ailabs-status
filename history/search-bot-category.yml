@@ -1,7 +1,7 @@
-url: https://ailabs-api.monitorapp.com/v1/search/ip_reputation?ip=10.0.0.1&start=2025-05-01&end=2025-05-02
+url: https://ailabs-api.monitorapp.com/v1/search/bot/category
 status: up
 code: 200
-responseTime: 282
-lastUpdated: 2025-05-22T01:15:44.610Z
+responseTime: 2133
+lastUpdated: 2025-05-22T06:42:56.481Z
 startTime: 2025-05-22T01:10:48.508Z
 generator: Upptime <https://github.com/upptime/upptime>
