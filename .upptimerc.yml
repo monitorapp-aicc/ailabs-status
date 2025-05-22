@@ -37,16 +37,14 @@ sites:
     maxResponseTime: 10000
     headers:
       - "Content-Type: application/json"
-    body: '{ "url": "https://wwww.example.com" }'
-    headers:
       - "Authorization: $API_KEY"
+    body: '{ "url": "https://wwww.example.com" }'
   - name: Bulk URL analysis
     url: https://ailabs-api.monitorapp.com/v1/analysis/url/bulk
     method: POST
     maxResponseTime: 10000
     headers:
       - "Authorization: $API_KEY"
-    headers:
       - "Content-Type: application/json"
     body: '{ "urls": ["https://wwww.example.com"] }'
   - name: Bulk URL analysis results list query by task ID
@@ -55,7 +53,6 @@ sites:
     maxResponseTime: 10000
     headers:
       - "Authorization: $API_KEY"    
-    headers:
       - "Content-Type: application/json"
     body: '{ "request_id": "50341510-4e57-4b99-a398-97c43a79d9c5" }'
   - name: Inquiring URL result
@@ -70,7 +67,6 @@ sites:
     maxResponseTime: 10000
     headers:
       - "Authorization: $API_KEY"
-    headers:
       - "Content-Type: application/json"
     body: '[ { "url" : "https://www.example.com" } ]'
 
