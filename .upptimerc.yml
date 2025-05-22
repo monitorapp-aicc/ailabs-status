@@ -3,8 +3,7 @@ owner: monitorapp-aicc
 repo: ailabs-status
 
 sites:
-  - name: ailabs
-    url: https://ailabs.monitorapp.com
+
   # File Analysis
   - name: File analysis
     url: https://ailabs-api.monitorapp.com/v1/analysis/file
