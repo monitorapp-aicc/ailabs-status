@@ -69,7 +69,75 @@ sites:
       - "Authorization: $API_KEY"
       - "Content-Type: application/json"
     body: '[ { "url" : "https://www.example.com" } ]'
+  # URL Category
+  - name: Inquiring URL Category
+    url: https://ailabs-api.monitorapp.com/v1/search/url/category
+    method: POST
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"
+      - "Content-Type: application/json"
+    body: '[ { "url" : "https://www.example.com" } ]'
+  # Log Search
+  - name: Web attacker ip match request
+    url: https://ailabs-api.monitorapp.com/v1/search/ip/attacker
+    method: GET
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"
+      - "Content-Type: application/json"
+    body: '[ { "ip" : "10.0.0.1" } ]'
+  - name: Malicious file match request
+    url: https://ailabs-api.monitorapp.com/v1/search/file/malicious
+    method: POST
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"
+  # Log Search
+  - name: Search bot category
+    url: https://ailabs-api.monitorapp.com/v1/search/bot/category
+    method: POST
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"
+      - "Content-Type: application/json"
+    body: '[ { "ip" : "10.0.0.1" } ]'
+  - name: Search bot match
+    url: https://ailabs-api.monitorapp.com/v1/search/bot/match
+    method: POST
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"
+      - "Content-Type: application/json"
+    body: '[ { "ip" : "10.0.0.1" } ]'
+  # IP Reputation
+  - name: Search bot category
+    url: https://ailabs-api.monitorapp.com/v1/search/ip_reputation?ip=10.0.0.1&start=2025-05-01&end=2025-05-02
+    method: POST
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"
+  # IP Reputation
+  - name: Mis URL report
+    url: https://ailabs-api.monitorapp.com/v1/ailabs/url/mis_report
+    method: POST
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"
+  - name: Mis IP report
+    url: https://ailabs-api.monitorapp.com/v1/ailabs/ip/mis_report
+    method: POST
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"
+  - name: Mis report history
+    url: https://ailabs-api.monitorapp.com/v1/ailabs/api/mis_report
+    method: POST
+    maxResponseTime: 10000
+    headers:
+      - "Authorization: $API_KEY"
 
+      
 status-website:
   baseUrl: /ailabs-status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
