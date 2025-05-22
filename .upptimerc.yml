@@ -91,6 +91,8 @@ sites:
     url: https://ailabs-api.monitorapp.com/v1/search/file/malicious
     method: POST
     maxResponseTime: 10000
+    expectedStatusCodes:
+      - 400
     headers:
       - "Authorization: $API_KEY"
   # Log Search
