@@ -203,19 +203,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/ailabs-api.monitorapp.com.ico",
     "slug": "malicious-file-match-request",
     "status": "up",
-    "uptime": "13.33%",
-    "uptimeDay": "13.33%",
-    "uptimeWeek": "13.33%",
-    "uptimeMonth": "13.33%",
-    "uptimeYear": "13.33%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 213,
     "timeDay": 213,
     "timeWeek": 213,
     "timeMonth": 213,
     "timeYear": 213,
-    "dailyMinutesDown": {
-      "2025-05-22": 4
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Search bot category",
