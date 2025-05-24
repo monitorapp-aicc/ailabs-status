@@ -208,11 +208,11 @@
     "uptimeWeek": "99.96%",
     "uptimeMonth": "99.96%",
     "uptimeYear": "99.96%",
-    "time": 1172,
-    "timeDay": 731,
-    "timeWeek": 1172,
-    "timeMonth": 1172,
-    "timeYear": 1172,
+    "time": 1123,
+    "timeDay": 721,
+    "timeWeek": 1123,
+    "timeMonth": 1123,
+    "timeYear": 1123,
     "dailyMinutesDown": {
       "2025-05-24": 2
     }
@@ -223,18 +223,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/ailabs-api.monitorapp.com.ico",
     "slug": "search-bot-match",
     "status": "down",
-    "uptime": "97.93%",
+    "uptime": "97.71%",
     "uptimeDay": "98.13%",
-    "uptimeWeek": "97.93%",
-    "uptimeMonth": "97.93%",
-    "uptimeYear": "97.93%",
+    "uptimeWeek": "97.71%",
+    "uptimeMonth": "97.71%",
+    "uptimeYear": "97.71%",
     "time": 3705,
     "timeDay": 4882,
     "timeWeek": 3705,
     "timeMonth": 3705,
     "timeYear": 3705,
     "dailyMinutesDown": {
-      "2025-05-24": 9,
+      "2025-05-24": 19,
       "2025-05-23": 33,
       "2025-05-22": 42
     }
@@ -250,11 +250,11 @@
     "uptimeWeek": "99.96%",
     "uptimeMonth": "99.96%",
     "uptimeYear": "99.96%",
-    "time": 1172,
-    "timeDay": 731,
-    "timeWeek": 1172,
-    "timeMonth": 1172,
-    "timeYear": 1172,
+    "time": 1123,
+    "timeDay": 721,
+    "timeWeek": 1123,
+    "timeMonth": 1123,
+    "timeYear": 1123,
     "dailyMinutesDown": {
       "2025-05-24": 2
     }
