@@ -112,7 +112,7 @@ sites:
       - "Content-Type: application/json"
     body: '[ { "ip" : "10.0.0.1" } ]'
   # IP Reputation
-  - name: Search bot category
+  - name: Search IP reputation
     url: https://ailabs-api.monitorapp.com/v1/search/ip_reputation?ip=10.0.0.1&start=2025-05-01&end=2025-05-02
     method: POST
     maxResponseTime: 10000
