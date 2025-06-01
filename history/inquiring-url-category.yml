@@ -1,7 +1,7 @@
 url: https://ailabs-api.monitorapp.com/v1/search/url/category
-status: up
-code: 200
-responseTime: 214
-lastUpdated: 2025-05-31T23:22:42.795Z
+status: down
+code: 500
+responseTime: 168
+lastUpdated: 2025-06-01T23:22:41.071Z
 startTime: 2025-05-22T01:10:44.932Z
 generator: Upptime <https://github.com/upptime/upptime>
