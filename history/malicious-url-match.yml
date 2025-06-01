@@ -1,7 +1,7 @@
 url: https://ailabs-api.monitorapp.com/v1/search/url/malicious
-status: up
-code: 200
-responseTime: 210
-lastUpdated: 2025-05-31T23:22:42.409Z
+status: down
+code: 500
+responseTime: 168
+lastUpdated: 2025-06-01T23:22:39.164Z
 startTime: 2025-05-22T00:11:37.089Z
 generator: Upptime <https://github.com/upptime/upptime>
