@@ -1,7 +1,7 @@
 url: https://ailabs-api.monitorapp.com/v1/search/ip_reputation?ip=10.0.0.1&start=2025-05-01&end=2025-05-02
 status: down
 code: 502
-responseTime: 169
-lastUpdated: 2025-06-27T07:00:11.242Z
+responseTime: 129
+lastUpdated: 2025-06-27T23:24:10.758Z
 startTime: 2025-05-27T01:03:30.735Z
 generator: Upptime <https://github.com/upptime/upptime>
