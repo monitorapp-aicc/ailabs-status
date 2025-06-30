@@ -1,7 +1,7 @@
 url: https://ailabs-api.monitorapp.com/v1/analysis/url/bulk/task_list
 status: down
-code: 502
-responseTime: 186
-lastUpdated: 2025-06-29T23:22:46.274Z
+code: 404
+responseTime: 181
+lastUpdated: 2025-06-30T23:23:24.193Z
 startTime: 2025-05-22T00:11:36.138Z
 generator: Upptime <https://github.com/upptime/upptime>
