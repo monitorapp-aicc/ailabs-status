@@ -1,7 +1,7 @@
 url: https://ailabs-api.monitorapp.com/v1/analysis/url/result?id=50341510-4e57-4b99-a398-97c43a79d9c5
-status: down
+status: degraded
 code: 502
-responseTime: 304
-lastUpdated: 2025-07-13T23:25:06.654Z
+responseTime: 13081
+lastUpdated: 2025-07-14T17:46:11.048Z
 startTime: 2025-05-22T00:11:36.608Z
 generator: Upptime <https://github.com/upptime/upptime>
