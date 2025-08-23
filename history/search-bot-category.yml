@@ -1,7 +1,7 @@
 url: https://ailabs-api.monitorapp.com/v1/search/bot/category
-status: degraded
+status: up
 code: 200
-responseTime: 18277
-lastUpdated: 2025-08-23T17:41:27.063Z
+responseTime: 1979
+lastUpdated: 2025-08-23T17:49:50.779Z
 startTime: 2025-05-22T01:10:48.508Z
 generator: Upptime <https://github.com/upptime/upptime>
