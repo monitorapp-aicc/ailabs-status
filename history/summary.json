@@ -121,7 +121,7 @@
     "timeMonth": 279,
     "timeYear": 237,
     "dailyMinutesDown": {
-      "2025-09-29": 532,
+      "2025-09-29": 543,
       "2025-09-28": 1440,
       "2025-09-27": 1440,
       "2025-09-26": 1440,
@@ -245,7 +245,7 @@
     "timeMonth": 268,
     "timeYear": 226,
     "dailyMinutesDown": {
-      "2025-09-29": 532,
+      "2025-09-29": 543,
       "2025-09-28": 1440,
       "2025-09-27": 1440,
       "2025-09-26": 1440,
@@ -511,19 +511,19 @@
     "url": "https://ailabs-api.monitorapp.com/v1/search/bot/category",
     "icon": "https://icons.duckduckgo.com/ip3/ailabs-api.monitorapp.com.ico",
     "slug": "search-bot-category",
-    "status": "up",
-    "uptime": "97.93%",
-    "uptimeDay": "79.18%",
-    "uptimeWeek": "83.08%",
-    "uptimeMonth": "91.11%",
-    "uptimeYear": "97.93%",
-    "time": 11933,
-    "timeDay": 12291,
-    "timeWeek": 12073,
-    "timeMonth": 11282,
-    "timeYear": 11933,
+    "status": "degraded",
+    "uptime": "97.94%",
+    "uptimeDay": "79.11%",
+    "uptimeWeek": "83.07%",
+    "uptimeMonth": "91.16%",
+    "uptimeYear": "97.94%",
+    "time": 11936,
+    "timeDay": 12441,
+    "timeWeek": 12102,
+    "timeMonth": 11297,
+    "timeYear": 11936,
     "dailyMinutesDown": {
-      "2025-09-29": 120,
+      "2025-09-29": 121,
       "2025-09-28": 213,
       "2025-09-27": 241,
       "2025-09-26": 341,
@@ -541,7 +541,7 @@
       "2025-09-14": 23,
       "2025-09-13": 58,
       "2025-09-12": 96,
-      "2025-09-11": 73
+      "2025-09-11": 51
     }
   },
   {
@@ -558,7 +558,7 @@
     "time": 11174,
     "timeDay": 10519,
     "timeWeek": 10761,
-    "timeMonth": 10273,
+    "timeMonth": 10282,
     "timeYear": 11174,
     "dailyMinutesDown": {
       "2025-09-29": 109,
