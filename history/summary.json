@@ -125,7 +125,7 @@
     "timeMonth": 280,
     "timeYear": 248,
     "dailyMinutesDown": {
-      "2025-11-13": 1163,
+      "2025-11-13": 1174,
       "2025-11-12": 1440,
       "2025-11-11": 1440,
       "2025-11-10": 1440,
@@ -294,7 +294,7 @@
     "timeMonth": 279,
     "timeYear": 239,
     "dailyMinutesDown": {
-      "2025-11-13": 1163,
+      "2025-11-13": 1174,
       "2025-11-12": 1440,
       "2025-11-11": 1440,
       "2025-11-10": 1440,
@@ -605,19 +605,19 @@
     "url": "https://ailabs-api.monitorapp.com/v1/search/bot/category",
     "icon": "https://icons.duckduckgo.com/ip3/ailabs-api.monitorapp.com.ico",
     "slug": "search-bot-category",
-    "status": "up",
-    "uptime": "97.53%",
-    "uptimeDay": "61.98%",
-    "uptimeWeek": "74.36%",
-    "uptimeMonth": "85.73%",
-    "uptimeYear": "97.53%",
-    "time": 11762,
-    "timeDay": 11468,
-    "timeWeek": 12145,
-    "timeMonth": 11589,
-    "timeYear": 11762,
+    "status": "degraded",
+    "uptime": "97.54%",
+    "uptimeDay": "62.42%",
+    "uptimeWeek": "74.35%",
+    "uptimeMonth": "85.77%",
+    "uptimeYear": "97.54%",
+    "time": 11765,
+    "timeDay": 11754,
+    "timeWeek": 12112,
+    "timeMonth": 11602,
+    "timeYear": 11765,
     "dailyMinutesDown": {
-      "2025-11-13": 379,
+      "2025-11-13": 380,
       "2025-11-12": 337,
       "2025-11-11": 516,
       "2025-11-10": 238,
@@ -631,7 +631,7 @@
       "2025-11-01": 623,
       "2025-10-31": 314,
       "2025-10-30": 409,
-      "2025-10-29": 168
+      "2025-10-29": 150
     }
   },
   {
@@ -639,16 +639,16 @@
     "url": "https://ailabs-api.monitorapp.com/v1/search/bot/match",
     "icon": "https://icons.duckduckgo.com/ip3/ailabs-api.monitorapp.com.ico",
     "slug": "search-bot-match",
-    "status": "up",
-    "uptime": "97.63%",
-    "uptimeDay": "66.69%",
-    "uptimeWeek": "75.52%",
-    "uptimeMonth": "86.29%",
-    "uptimeYear": "97.63%",
+    "status": "degraded",
+    "uptime": "97.64%",
+    "uptimeDay": "66.66%",
+    "uptimeWeek": "75.62%",
+    "uptimeMonth": "86.34%",
+    "uptimeYear": "97.64%",
     "time": 10915,
-    "timeDay": 11897,
-    "timeWeek": 11265,
-    "timeMonth": 10603,
+    "timeDay": 11766,
+    "timeWeek": 11276,
+    "timeMonth": 10606,
     "timeYear": 10915,
     "dailyMinutesDown": {
       "2025-11-13": 342,
@@ -665,7 +665,7 @@
       "2025-11-01": 604,
       "2025-10-31": 331,
       "2025-10-30": 335,
-      "2025-10-29": 179
+      "2025-10-29": 158
     }
   },
   {
