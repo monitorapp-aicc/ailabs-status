@@ -1,7 +1,7 @@
 url: https://ailabs-api.monitorapp.com/v1/ailabs/ip/mis_report
-status: degraded
-code: 500
-responseTime: 10260
-lastUpdated: 2025-12-20T18:15:25.069Z
+status: up
+code: 200
+responseTime: 227
+lastUpdated: 2025-12-20T18:41:58.160Z
 startTime: 2025-05-22T01:10:56.997Z
 generator: Upptime <https://github.com/upptime/upptime>
